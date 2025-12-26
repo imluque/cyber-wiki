@@ -1,1 +1,1 @@
-Creación de mapas isométricos: https://stan-smith.github.io/FossFLOW/
+Creación de mapas isométricos: https://github.com/stan-smith/FossFLOW
