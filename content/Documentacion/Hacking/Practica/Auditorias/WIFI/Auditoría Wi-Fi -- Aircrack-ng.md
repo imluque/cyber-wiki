@@ -8,7 +8,7 @@ Estas técnicas solo deben aplicarse en redes propias o con autorización expres
 ## 0. Requisitos
 
 - Descargar la wordlist `rockyou.txt`
-- Entorno linux de pruebas, en este caso es en Kali, mas información en: https://www.kali.org/
+- Entorno linux de pruebas, en este caso uso Kali, mas información en: https://www.kali.org/
 - Adaptador de wifi 
 - Estar al alcance físico de la señal victima
 
