@@ -1,3 +1,9 @@
+
+> [!NOTE] ⚠️ **Aviso**  
+La información descrita a continuación se estudia con fines educativos para comprender cómo funcionan las auditorías de redes inalámbricas y así poder **prevenir ataques y mejorar la seguridad**.  
+Estas técnicas solo deben aplicarse en redes propias o con autorización expresa.
+
+
 1.- Descargar o wordlist desde rockyou.txt
 
 2.- Instalar aircrack-ng
