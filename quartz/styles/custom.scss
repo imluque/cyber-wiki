@@ -1,3 +1,12 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.markdown {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.markdown blockquote {
+  border-left: 4px solid #7c3aed;
+  padding-left: 1rem;
+}
