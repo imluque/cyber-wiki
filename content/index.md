@@ -20,20 +20,14 @@ Esta wiki sirve como:
 
 ## 🧭 Roadmap de aprendizaje
 
-- [[Volatility]] – Mi plan de estudios y progreso
+- [[Herramientas]]
+- [[Practica]]
+- [[Teoría]]
+
 
 ---
 
-## 🔍 Cómo usar esta wiki
-
-1. Explora la **barra lateral** para navegar por secciones.
-2. Usa los enlaces `[[ ]]` para saltar entre conceptos relacionados.
-3. Consulta los **walkthroughs** para ver ejemplos prácticos.
-4. Agrega tus propios comentarios o insights en cada nota si quieres hacer seguimiento personal.
-
----
-
-## 💡 Tip
+## 💡 Pequeño apunte
 
 Esta wiki está organizada **para aprendizaje progresivo**, pero puedes explorar libremente según tus intereses: teoría, práctica o herramientas.
 
