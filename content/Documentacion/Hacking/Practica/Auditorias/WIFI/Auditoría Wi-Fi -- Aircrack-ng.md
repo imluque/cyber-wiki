@@ -24,8 +24,8 @@ Estas técnicas solo deben aplicarse en redes propias o con autorización expres
 ## 2. Identificación de interfaces
 
 -   Identificar:
-    -   Adaptador Wi-Fi del dispositivo
-    -   Red Wi-Fi a testear
+  -   Adaptador Wi-Fi del dispositivo
+  -   Red Wi-Fi a testear
 
 ```
 ifconfig
