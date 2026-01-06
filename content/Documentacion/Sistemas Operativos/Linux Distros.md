@@ -1,1 +1,0 @@
-![[Linux Distributions Timeline.svg]]

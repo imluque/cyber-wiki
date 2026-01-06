@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"105cbe47fa0d55ff","type":"file","file":"Hacking/Teoría/Hydra bruteforce.md","x":-2540,"y":-960,"width":400,"height":600}
+		{"id":"105cbe47fa0d55ff","type":"file","file":"Hacking/Herramientas/Hydra bruteforce.md","x":-2540,"y":-960,"width":400,"height":600}
 	],
 	"edges":[]
 }
