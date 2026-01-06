@@ -23,9 +23,9 @@ Estas técnicas solo deben aplicarse en redes propias o con autorización expres
 ------------------------------------------------------------------------
 ## 2. Identificación de interfaces
 
--   Identificar:
-    -   Adaptador Wi-Fi del dispositivo
-    -   Red Wi-Fi a testear
+Identificar:
+  -   Adaptador Wi-Fi del dispositivo
+  -   Red Wi-Fi a testear
 
 ```
 ifconfig
@@ -55,7 +55,7 @@ airodump-ng <adaptador_mon>
 ------------------------------------------------------------------------
 ## 5. Selección de la red objetivo
 
--   Anotar:
+Anotar:
     -   **BSSID** del punto de acceso
         `xx:xx:xx:xx:xx:xx`
     -   **Canal (CH)**
