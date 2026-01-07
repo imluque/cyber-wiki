@@ -1,5 +1,5 @@
 ---
-title: false
+title: Cyber-wiki
 ---
 # 🛡️ Cybersecurity Learning Wiki
 
