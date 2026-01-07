@@ -1,3 +1,6 @@
+---
+title: false
+---
 # 🛡️ Cybersecurity Learning Wiki
 
 Bienvenido a mi **base de conocimiento personal de ciberseguridad**.  
