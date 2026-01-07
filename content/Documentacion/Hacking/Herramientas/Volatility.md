@@ -1,5 +1,5 @@
 
-Sirve para sacar información a través de los metadatos de memoria RAM, esto lo podemos analizar de un fichero .img
+Sirve para extraer información a través de los metadatos de memoria RAM, esto lo podemos analizar de un fichero ".img" volcando esa memoria temporal
 
 Usamos el parámetro "imageinfo" para saber el profile, versión del SO. Esto nos ayudara a usar volatility adecuadamente para sacar la información del .img dependiendo de que sistema operativo tenga o se identifique.
 

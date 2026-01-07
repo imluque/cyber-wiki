@@ -39,7 +39,7 @@ Aircrack-ng trabaja principalmente con:
 
 ## Componentes principales de la suite
 
-### 🔹 airmon-ng
+### airmon-ng
 - Habilita y gestiona el **modo monitor**
 - Configura interfaces inalámbricas
 - Detiene procesos que interfieren (NetworkManager, wpa_supplicant)
@@ -48,7 +48,7 @@ El modo monitor permite capturar y analizar tramas sin necesidad de asociarse a 
 
 ---
 
-### 🔹 airodump-ng
+### airodump-ng
 - Captura tráfico Wi-Fi en tiempo real
 - Muestra información como:
   - BSSID
@@ -62,7 +62,7 @@ Es fundamental para la captura de **handshakes WPA/WPA2**.
 
 ---
 
-### 🔹 aireplay-ng
+### aireplay-ng
 - Inyecta tráfico en redes Wi-Fi
 - Permite:
   - Desautenticación de clientes
@@ -73,7 +73,7 @@ Se utiliza para forzar eventos que faciliten el análisis de seguridad.
 
 ---
 
-### 🔹 aircrack-ng
+### aircrack-ng
 - Motor de **análisis criptográfico**
 - Analiza archivos de captura (`.cap`)
 - Realiza ataques:
@@ -85,7 +85,7 @@ No rompe el cifrado directamente, sino que **evalúa la fortaleza de la clave**.
 
 ---
 
-### 🔹 airbase-ng
+### airbase-ng
 - Permite crear **puntos de acceso falsos (Evil Twin)**
 - Se usa en ataques avanzados:
   - Rogue AP
@@ -96,7 +96,7 @@ No rompe el cifrado directamente, sino que **evalúa la fortaleza de la clave**.
 
 ## Tipos de ataques (visión teórica)
 
-### 🔸 WEP
+### WEP
 - Vulnerable por diseño
 - Ataques basados en:
   - IVs débiles
@@ -105,7 +105,7 @@ No rompe el cifrado directamente, sino que **evalúa la fortaleza de la clave**.
 
 ---
 
-### 🔸 WPA / WPA2-PSK
+### WPA / WPA2-PSK
 - Ataques **offline**
 - Requiere captura de handshake
 - La seguridad depende de:
@@ -117,7 +117,7 @@ No rompe el cifrado directamente, sino que **evalúa la fortaleza de la clave**.
 
 ---
 
-### 🔸 WPA2-Enterprise
+### WPA2-Enterprise
 - No es el foco principal de Aircrack-ng
 - Requiere otras técnicas y herramientas (EAP, RADIUS)
 - Aircrack-ng tiene uso limitado en este contexto
