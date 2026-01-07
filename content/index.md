@@ -5,7 +5,7 @@ Aquí documentaré **todo mi proceso de aprendizaje**, incluyendo apuntes, walkt
 
 ---
 
-## 🌟 Objetivo
+## Objetivo
 
 Esta wiki sirve como:
 
@@ -18,22 +18,19 @@ Esta wiki sirve como:
 
 ---
 
-## 🧭 Roadmap de aprendizaje
+## Roadmap de aprendizaje
 
-- [[Herramientas]]
-- [[Practica]]
-- [[Teoría]]
-
+- [[Índice]]
 
 ---
 
-## 💡 Pequeño apunte
+## Pequeño apunte
 
 Esta wiki está organizada **para aprendizaje progresivo**, pero puedes explorar libremente según tus intereses: teoría, práctica o herramientas.
 
 ---
 
-> 🔗 Este sitio refleja mi evolución en ciberseguridad: lo que aprendo, lo que fallo, lo que soluciono y lo que aplico.
+> Este sitio refleja mi evolución en ciberseguridad: lo que aprendo, lo que fallo, lo que soluciono y lo que aplico.
 
 
 
