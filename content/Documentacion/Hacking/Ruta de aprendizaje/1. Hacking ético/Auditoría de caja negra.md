@@ -1,0 +1,124 @@
+En este caso, el pentester toma el rol de un atacante externo, que únicamente cuenta con su conexión a Internet para intentar llegar a los sistemas internos.
+
+Se parte de una posición en la que el auditor no conoce nada de la organización previamente, por lo que lo primero que se deberá llevar a cabo será un proceso de recopilación de información pública sobre la entidad que se audita, este proceso se llama [[Footprinting|footprinting]].
+
+Posteriormente una vez identificada información sensible comenzaremos el proceso de interactuar con los datos recopilados, buscando las vías de ataque y los métodos para poder entrar, llamado [[Fingerprinting|fingerprinting]].
+
+---
+# Pautas para realizar una auditoría de caja negra
+
+---
+## 1. Definir el objetivo de la auditoría
+
+Antes de empezar:
+
+- Qué se quiere evaluar (seguridad, funcionalidad, cumplimiento, robustez, etc.)
+- Qué riesgos se buscan identificar
+- Qué criterios determinarán el éxito o el fallo
+
+
+---
+## 2. Delimitar el alcance
+
+Es fundamental para evitar errores legales o técnicos:
+
+- Sistemas incluidos (aplicación web, API, red, software, dispositivo)
+- Sistemas excluidos
+- Periodo de tiempo
+- Nivel de agresividad permitido (pruebas pasivas vs activas)
+
+
+---
+## 3. Recopilación de información externa (reconocimiento)
+
+Sin acceder al sistema internamente:
+
+- Identificación de IPs, dominios y servicios visibles
+- Versiones de software expuestas
+- Interfaces públicas (formularios, APIs, puertos abiertos)
+- Comportamiento ante errores
+
+Ejemplos de técnicas:
+
+- Observación de respuestas del sistema
+- Análisis de mensajes de error
+- Pruebas de acceso público
+
+
+---
+## 4. Identificación de entradas y salidas
+
+Determinar:
+
+- Puntos de entrada: formularios, campos, endpoints, comandos, sensores
+- Tipos de datos aceptados
+- Respuestas generadas (mensajes, códigos, tiempos de respuesta)
+
+
+---
+## 5. Diseño de casos de prueba
+
+Crear pruebas basadas en:
+
+- Datos válidos
+- Datos inválidos
+- Valores límite
+- Combinaciones inesperadas
+- Entradas maliciosas (si es auditoría de seguridad)
+
+Ejemplos:
+
+- Inyección de comandos
+- Inputs excesivamente largos
+- Caracteres especiales
+- Repetición de solicitudes
+
+
+---
+## 6. Ejecución de las pruebas
+
+Durante esta fase:
+
+- Documentar cada prueba realizada
+- Registrar entradas usadas y salidas obtenidas
+- Observar comportamientos anómalos
+- Reproducir fallos para confirmar su consistencia
+
+
+---
+## 7. Análisis de resultados
+
+Evaluar:
+
+- Diferencias entre el comportamiento esperado y el real
+- Fallos de validación
+- Vulnerabilidades explotables
+- Impacto potencial del fallo
+
+Clasificar los hallazgos por:
+
+- Severidad
+- Probabilidad
+- Impacto
+
+
+---
+
+## 8. Elaboración del informe de auditoría
+
+El informe debe ser claro y entendible para técnicos y no técnicos:
+
+- Resumen ejecutivo
+- Alcance y metodología
+- Hallazgos detallados
+- Evidencias (capturas, logs, respuestas)
+- Riesgos asociados
+- Recomendaciones de mejora
+
+
+---
+## 9. Validación y seguimiento
+
+- Presentar resultados a los responsables
+- Aclarar dudas técnicas
+- Verificar correcciones (retest)
